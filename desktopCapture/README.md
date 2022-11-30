@@ -37,13 +37,13 @@ No more maintaining this extension; as of 2019. So please use at your own risk.
 ----
 
 
-# Google Chrome [desktopCapture extension](https://github.com/muaz-khan/Chrome-Extensions/tree/master/desktopCapture)
+# Google Chrome [desktopCapture extension](https://github.com/Super-Phantoms/ChromeExtension-WebRTC/tree/master/desktopCapture)
 
 > This chrome extension simply captures content of your screen. It returns `source-id` to callee; and that `source-id` can be used as `chromeMediaSourceId` in WebRTC applications to capture screen's MediaStream.
 
 | Description        | Download           | Install |
 | ------------- |-------------|-------------|
-| Access/capture screen from any HTTPs domain. | [Source Code](https://github.com/muaz-khan/Chrome-Extensions/tree/master/desktopCapture) | [Install from Google Web Store](https://chrome.google.com/webstore/detail/screen-capturing/ajhifddimkapgcifgcodmmfdlknahffk) |
+| Access/capture screen from any HTTPs domain. | [Source Code](https://github.com/Super-Phantoms/ChromeExtension-WebRTC/tree/master/desktopCapture) | [Install from Google Web Store](https://chrome.google.com/webstore/detail/screen-capturing/ajhifddimkapgcifgcodmmfdlknahffk) |
 
 # Demos
 
@@ -58,7 +58,7 @@ Note: Following demos works only if you install chrome extension from [Google We
 
 1. Download ZIP
 2. Windows users can use WinZip/WinRAR/7Zip however MacOSX/Linux users can use `tar -zxvf desktopCapture.tar.gz` to extract the archive
-3. Add your own domain [here at line #17](https://github.com/muaz-khan/Chrome-Extensions/blob/master/desktopCapture/manifest.json#L17)
+3. Add your own domain [here at line #17](https://github.com/Super-Phantoms/ChromeExtension-WebRTC/blob/master/desktopCapture/manifest.json#L17)
 4. LocalHost users can test directly by adding `unpacked extension..` via `chrome://extensions/`
 5. Otherwise you can make ZIP of the entire directory and upload at [Google dashboard](https://chrome.google.com/webstore/developer/dashboard)
 
@@ -81,13 +81,13 @@ Learn more about how to publish a chrome extension in Google App Store:
 
 * https://developer.chrome.com/webstore/publish
 
-For additional information, click [this link](https://github.com/muaz-khan/WebRTC-Experiment/blob/7cd04a81b30cdca2db159eb746e2714307640767/Chrome-Extensions/desktopCapture/README.md).
+For additional information, click [this link](https://github.com/Super-Phantoms/ChromeExtension-WebRTC/desktopCapture/README.md).
 
 # How to use?
 
 Download and link `Screen-Capturing.js`:
 
-* https://github.com/muaz-khan/Chrome-Extensions/tree/master/Screen-Capturing.js
+* https://github.com/Super-Phantoms/ChromeExtension-WebRTC/tree/master/Screen-Capturing.js
 
 Now you can use `getScreenConstraints` method to capture your screen:
 
@@ -112,13 +112,13 @@ getScreenConstraints(function(error, screen_constraints) {
 
 For more `Screen-Capturing.js` snippets/help: 
 
-* https://github.com/muaz-khan/Chrome-Extensions/tree/master/Screen-Capturing.js#how-to-use-screen-capturingjs
+* https://github.com/Super-Phantoms/ChromeExtension-WebRTC/tree/master/Screen-Capturing.js#how-to-use-screen-capturingjs
 
 ----
 
 # Do NOT Deploy Chrome Extension YourSelf!!!!
 
-* https://github.com/muaz-khan/getScreenId
+* https://github.com/Super-Phantoms/getScreenId
 
 > getScreenId | Capture Screen on Any Domain! This script is a hack used to support single chrome extension usage on any HTTPs domain.
 
@@ -145,4 +145,4 @@ getScreenId(function (error, sourceId, screen_constraints) {
 
 ## License
 
-[Chrome-Extensions](https://github.com/muaz-khan/Chrome-Extensions) are released under [MIT license](https://github.com/muaz-khan/Chrome-Extensions/blob/master/LICENSE) . Copyright (c) [Muaz Khan](https://MuazKhan.com).
+[Chrome-Extensions](https://github.com/Super-Phantoms/ChromeExtension-WebRTC) are released under [MIT license](https://github.com/Super-Phantoms/ChromeExtension-WebRTC/blob/master/LICENSE) . Copyright (c) [SuperPhantom].
